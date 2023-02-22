@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/imgMemes"
+       android:layout_width="wrap_content"
+       android:layout_height="340dp"
+       android:scaleType="centerCrop"
+       android:src="@drawable/boy"
+      android:layout_marginTop="80dp"/>
+
+   <Button
+      android:id="@+id/btnShare"
+       android:layout_width="140dp"
+       android:layout_height="wrap_content"
+      android:text="Share"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="40dp"
+      android:layout_margin="20dp"
+      android:padding="10dp"/>
+
+   <Button
+      android:id="@+id/btnNext"
+       android:layout_width="140dp"
+       android:layout_height="wrap_content"
+      android:layout_toRightOf="@id/btnShare"
+      android:text="Next"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="20dp"
+      android:layout_marginLeft="65dp"
+       android:padding="10dp"/>
+
+
+
+
+
+</RelativeLayout>
